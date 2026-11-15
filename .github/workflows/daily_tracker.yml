@@ -2,7 +2,7 @@ name: Daily Roblox Tracker
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs every day at 8:00 AM UTC
+    - cron: '0 8 * * *' # Runs daily at 8:00 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -20,11 +20,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests pandas matplotlib
 
-      - name: Run script
+      - name: Run tracking script
         run: python tracker.py
 
-      - name: Commit and push changes to CSV
+      - name: Commit data and chart image
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Update daily player count log'
-          file_pattern: 'player_comparison_log.csv'
+          commit_message: 'Auto-update player count logs and chart'
+          file_pattern: 'player_comparison_log.csv player_chart.png'
