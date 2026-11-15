@@ -1,0 +1,36 @@
+name: CCU Tracker
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ccu-tracker
+  cancel-in-progress: false
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Sample CCU
+        run: python tracker.py
+
+      - name: Commit data
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Add CCU sample'
+          file_pattern: 'ccu_log.csv'
