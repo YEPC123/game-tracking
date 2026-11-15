@@ -13,5 +13,63 @@
     "date": "2026-11-14",
     "game": "Kizuna",
     "description": "Game Released"
+  },
+  {
+    "date": "2026-11-15",
+    "game": "Kizuna",
+    "type": "update",
+    "description": "Update: songs, KASSEN balance, bundles, 100KVISITS code",
+    "changes": [
+      "New songs: Burn It Down by Linkin Park and If You Can't Hang by Sleeping With Sirens, charted by SharCookie",
+      "Big servers: students far from you cost much less to run and use less data, rain draws less than half as much, and consoles get the lighter settings phones already had",
+      "Pack bundles: buy KASSEN packs 1, 3, 5 or 10 at once. R$ 139 for 3, R$ 219 for 5, R$ 399 for 10",
+      "KASSEN balance: snitches draw 1 card instead of 2. A deck holds up to 3 of a common, 2 of a rare and 1 of anything rarer",
+      "Top players: rating and wins boards are on the KASSEN page, and student files show your main crew and rarest card",
+      "Code rerolls: rerolls from codes and first purchase bonuses can't be traded, staked, put on wanted posts or spent on listings. Rolling uses them first",
+      "Day One cards: early access players get all five. If you only got one, the other four arrive next time you join",
+      "Custom roles: private server custom roles have a boys outfit and a girls outfit",
+      "Tetris: works on controller. D-pad or stick moves through the menus, A picks, B goes back and Start or Select pauses",
+      "Short students: up to 7.5% less recovery after a full M1 chain the shorter you are under 5'4\"",
+      "Bonds: letting go blocks a new bond for 1 hour instead of forever, and the new bond starts at rank 0",
+      "New code: 100KVISITS for 50 free rerolls until Nov 21",
+      "Hair: highlights show on every hair, and a blue hair that looked blocky is smooth",
+      "Emotes: hugs and duo emotes don't snap you back to your partner, hand holds don't trap people in lockers or drag them through walls, and conga lines don't drop people into the void",
+      "Rep: you don't lose rep when someone you knocked gives up",
+      "Games: Tetris isn't mirrored anymore, and Molly's snitch tip lights up the right row",
+      "Music Room: less lag on phones, and the sprinklers don't drown it out during fire alarms",
+      "Other: no more falling through the map while it loads, a small stutter every 5 seconds is gone, and settings sliders drag on controller"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "game": "Kizuna",
+    "type": "patch",
+    "rollout": "new servers only",
+    "description": "Patch 1.1: 15 bond slots, PvP toggle, KASSEN revert",
+    "changes": [
+      "15 bond slots: up from 10. The lantern and SOS alerts also work across the whole school now, even when your bond is far away",
+      "PvP toggle in RP servers: turn PvP off in settings and nobody can hit you, and you can't hit anyone. If you just fought someone it waits till you've been out of the fight for 20 seconds. With it off you can't post bounties or have one posted on you, and if you're already wanted it stays on till your bounty's settled",
+      "KASSEN balance change reverted: snitches draw 2 cards again and decks have no copy limit. If your deck got trimmed, the cards are still in your binder",
+      "2 new codes: EACLOSURE gives early access players 100 rerolls till Nov 22, even if your role changed since. CONTENTCREATOR gives content creators 150 rerolls every week",
+      "KASSEN: right click a card in the deck builder (hold it on phones) to see what it does",
+      "KASSEN: you can see every leader's skill and pick any of them again",
+      "KASSEN: big binders don't show up empty anymore",
+      "KASSEN: get signed shows everyone in the server, not just 5",
+      "Shift lock on top of a tower doesn't freeze your camera anymore",
+      "Should have fixed a few false bans, like ones from playing soccer",
+      "Other implementations / fixes not listed here"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "game": "Kizuna",
+    "type": "promo_end",
+    "description": "100KVISITS code ends"
+  },
+  {
+    "date": "2026-11-22",
+    "game": "Kizuna",
+    "type": "promo_end",
+    "description": "EACLOSURE code ends"
   }
 ]
