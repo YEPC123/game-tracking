@@ -2,7 +2,7 @@ name: Daily Roblox Tracker
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs daily at 8:00 AM UTC
+    - cron: '0 0 * * *' # Runs every day at 12:00 AM UTC (Peak evening hours for the US)
   workflow_dispatch:
 
 permissions:
